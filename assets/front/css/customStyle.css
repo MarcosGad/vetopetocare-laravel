@@ -1,0 +1,257 @@
+.col3 .roundal, .centered .roundal{
+    cursor: default !important;
+}
+
+/*navbar*/
+.homepage .navbar, .contentpage .navbar{
+    background: rgba(255, 255, 255, 0.80);
+}
+
+.navbar-default .navbar-nav li a{
+    color:#777;
+}
+
+.navbar-default .navbar-nav li a:hover{
+    color: #65c178;
+}
+
+.navbar-default .navbar-nav .open a, 
+.navbar-default .navbar-nav .open a:hover, 
+.navbar-default .navbar-nav .open a:focus{
+    padding-bottom: 20px;
+}
+
+.nav .btn{
+    border: 2px solid #65c178;
+}
+
+.navbar h1{
+    margin-top: 0;
+}
+
+.form-title{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.nav li a {
+    font-size: 12px !important;
+    font-weight: bold;
+}
+/*btn*/
+.btn-success{
+    background-color: #5cb85c !important;
+}
+.btn-danger{
+    background-color: #d9534f !important;
+}
+
+.btn-primary{
+    background-color: #428bca !important;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+} 
+
+/*single*/
+.social-share{
+    margin-bottom: 15px !important;
+}
+.at-share-btn-elements{
+    text-align: center;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+    margin: auto;
+}
+.rating{
+    direction: revert !important;
+    margin:0 !important;
+}
+.adoption-single ol li:before{
+    right: -4em;
+}
+/*home*/
+.adoption div a, .adoption div a img{
+   height: 194px;
+}
+
+/*about*/
+.about-text{
+    font-size: 25px;
+    font-weight: bold;
+}
+.about-color{
+    color:#65c178;
+}
+
+/*footer*/
+.footer .contact-info span{
+    display: inline ;
+}
+
+/* add button */
+button {
+  border: none;
+  outline: none;
+}
+.wrapper-btn-add {
+    width: 45px;
+    height: 45px;
+    margin-top: 0 !important;
+    z-index: 2147483647;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 40px;
+}
+.circle {
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  background-color: #6bc37d;
+  display: flex;
+  transition: 0.2s;
+}
+.circle img {
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  transition: 0.5s;
+}
+.wrapper-btn-add:hover,
+.wrapper-btn-add:focus{
+  cursor: pointer;
+}
+.wrapper-btn-add:hover .circle{
+   background-color: #000;
+}
+.wrapper-btn-add:hover .circle img{
+    transform:rotate(315deg);
+}
+.btn-addRemove{
+  border: none;
+  border-radius: 0;
+  margin: -4px;
+  
+}
+/* boxs */
+.row-boxs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-boxs {
+  flex: 1 0 18%; 
+  margin: 5px;
+  background: #65c178;
+  height: 120px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-boxs a{
+   text-align: center;
+   color: #fff;
+   margin-top: 25px;
+   cursor: pointer;
+}
+
+.boxs-i{
+  font-size: 50px;
+}
+
+
+/* Not Active Page */
+.not-active-alert {
+    margin: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* wishlist */
+.btn-wishlist{
+    font-size: 20px;
+    color: #65c178;
+    padding: 0px;
+    background: none;
+    border: none;
+}
+.btn-wishlist:focus {
+    outline: none;
+}
+.trash-wishlist a{
+   background: none !important;
+   font-size: 18px;
+}
+
+.svg-inline--fa.fa-trash.fa-w-14{
+    color:#dc3545 !important;
+    padding-top: 3px;
+}
+.no-info{
+  text-align: center;
+  font-size: 16px;
+}
+/************ new update *********************/
+@media (min-width: 0px){
+    .centered{
+       margin-top: 100px;
+    }
+     .nav-pill-main-div {
+       margin-top: 50px!important;
+    }
+    ul.tabs li {
+      width: 32% !important;
+      font-size: 12px;
+    }
+    #home_carousel .carousel-caption p {
+		font-size: 10px;
+	}
+	.testimonials p {
+	    font-size: 14px;
+	}
+	.col-boxs h3{
+	   font-size: 18px;
+	}
+}
+@media (min-width: 768px){
+    .navbar-nav {
+       margin-bottom: 15px;
+       margin-top: 0;
+    }
+    .navbar-default .navbar-nav li a{
+      margin-bottom: 15px;
+    }
+    .centered{
+       margin-top: 170px;
+    }
+     .nav-pill-main-div {
+       margin-top: 125px!important;
+    }
+    #home_carousel .carousel-caption p {
+		font-size: 22px;
+	}
+	.testimonials p {
+	    font-size: 22px;
+	}
+	.col-boxs h3{
+	   font-size: 24px;
+	}
+}
+
+@media (min-width: 992px) { 
+    .navbar-nav {
+        margin-top: 30px;
+    }
+    .centered{
+       margin-top: 130px;
+    }
+    .nav-pill-main-div {
+       margin-top: 65px!important;
+    }
+}
